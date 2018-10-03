@@ -14,7 +14,10 @@ namespace InfoWriter
             ILoggerFactory loggerFactory = new ConfigurationLoggerFactory();
             ILogger logger = loggerFactory.Create();
 
-            logger.WriteInfo("Hello World");
+            var recordWrite = new RecordWriter(logger);
+
+            recordWrite.WriteRecord("Hello World");
+
             Console.Read();
         }
     }

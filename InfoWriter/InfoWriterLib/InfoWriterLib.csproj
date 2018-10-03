@@ -51,6 +51,7 @@
     <Compile Include="ILoggerFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecordWriter.cs" />
     <Compile Include="StramWriter.cs" />
   </ItemGroup>
   <ItemGroup>
